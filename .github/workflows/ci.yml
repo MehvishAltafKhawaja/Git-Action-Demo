@@ -17,7 +17,7 @@ jobs:
         uses: action/checkout@v4
 
       - name: Setup Python
-        uses: action/setup-python@v5
+        uses: action/Git-Action-Demo-python@v5
         with:
           python-version: '3.12'
 
