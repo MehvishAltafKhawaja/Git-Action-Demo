@@ -5,3 +5,6 @@ def test_add():
 
 def test_sub():
     assert subtract(10,5) == 5
+
+def test_mul(a=10,b=20):
+    return a*b
